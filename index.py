@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from datetime import datetime
-from Cryptodome.Cipher import AES
-from Cryptodome.Util.Padding import pad, unpad
+from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad
 import requests
 import urllib3
 import json
